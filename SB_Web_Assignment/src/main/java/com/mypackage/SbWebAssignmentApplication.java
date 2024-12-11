@@ -8,6 +8,7 @@ public class SbWebAssignmentApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SbWebAssignmentApplication.class, args);
+		System.out.println("Welcome to Employee Management");
 	}
 
 }
