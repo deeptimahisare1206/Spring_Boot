@@ -27,7 +27,7 @@ public class MyContoller {
 	public String insert(@ModelAttribute Employee employee) {
 		Employee i = employeeRepository.save(employee);
 		System.out.println(i);
-		return "display";
+		return "redirect:/view";
 	}
 	
 	@RequestMapping("/view")
