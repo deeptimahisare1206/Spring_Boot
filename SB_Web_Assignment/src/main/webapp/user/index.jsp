@@ -28,6 +28,7 @@
           value="Insert"
           class="h-10 px-4 bg-teal-700 text-xl font-bold"
         />
+        <h1><a href="view">Show All</a></h1>
       </form>
     </div>
   </body>

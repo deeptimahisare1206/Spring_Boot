@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.mypackage.dao.EmployeeRepository;
 import com.mypackage.entity.Employee;
@@ -36,7 +37,16 @@ public class MyContoller {
 		mod.addAttribute("list", itr);
 		return "display";
 	}
-	
+	@RequestMapping("/delete")
+	public String delete(@RequestParam Integer id) {
+		employeeRepository.deleteById(id);
+		return "redirect:/view";
+	}
+//	@RequestMapping("/update")
+//	public String update(@RequestParam Integer id) {
+//		employeeRepository.deleteById(id);
+//		return "redirect:/view";
+//	}
 	
 
 }

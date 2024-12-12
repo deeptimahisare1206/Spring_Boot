@@ -36,6 +36,8 @@ for(Employee sd : li)
           <td class="px-6 py-4 text-gray-700"><%= sd.getEid()%></td>
           <td class="px-6 py-4 text-gray-700"><%= sd.getEname() %></td>
           <td class="px-6 py-4 text-gray-700"><%= sd.getEsalary() %></td>
+         <td class="px-6 py-4 text-gray-700"><a href="delete?id=<%= sd.getEid() %>">Delete</a></td>
+         <td class="px-6 py-4 text-gray-700"><a href="update.jsp?id=<%= sd.getEid() %>">Update</a></td>
         </tr>
       </tbody>
    
