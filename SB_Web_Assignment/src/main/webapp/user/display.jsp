@@ -12,6 +12,15 @@
  <body class="bg-teal-700 text-center h-screen grid place-items-center">
    
  <h1 class="text-5xl">All Employee Details</h1>
+ 
+ <form action="search">
+ <input type="text" name="search" placeholder="search..">
+ <input type="submit" value="Search">
+ 
+ </form>
+ 
+ 
+ 
   <div class="overflow-x-auto">
     <table class="min-w-full bg-white border border-gray-200 shadow-md rounded-lg">
       <thead class="bg-gray-300">
@@ -37,7 +46,7 @@ for(Employee sd : li)
           <td class="px-6 py-4 text-gray-700"><%= sd.getEname() %></td>
           <td class="px-6 py-4 text-gray-700"><%= sd.getEsalary() %></td>
          <td class="px-6 py-4 text-gray-700"><a href="delete?id=<%= sd.getEid() %>">Delete</a></td>
-         <td class="px-6 py-4 text-gray-700"><a href="update.jsp?id=<%= sd.getEid() %>">Update</a></td>
+         <td class="px-6 py-4 text-gray-700"><a href="update?id=<%= sd.getEid() %>">Update</a></td>
         </tr>
       </tbody>
    
