@@ -63,8 +63,8 @@ public class MyContoller {
 	}
 	
 	@RequestMapping("/search")
-	public String search( @RequestParam( required = false) String search , Model mode) {
-	List<Employee> employee = employeeRepository.findByNameContainingIgnoreCase(search);
+	public String search( @RequestParam(name="search", required = false) String search , Model mode) {
+	List<Employee> employee = employeeRepository.findByEnameContainingIgnoreCase(search);
 		mode.addAttribute("find",employee);
 		return "userList";
 	}

@@ -8,5 +8,5 @@ import com.mypackage.entity.Employee;
 
 public interface EmployeeRepository extends CrudRepository<Employee, Integer>{
 
-	List<Employee> findByNameContainingIgnoreCase(String ename);
+	public List<Employee> findByEnameContainingIgnoreCase(String ename);
 }
