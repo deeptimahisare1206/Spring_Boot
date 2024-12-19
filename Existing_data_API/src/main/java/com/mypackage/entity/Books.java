@@ -12,10 +12,10 @@ public class Books {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer BookId;
-	@Column(name = "BookName" , length = 50)
-	private String bookName;
-	@Column(name = "AuthorName" , length = 50)
-	private String authorName;
+	@Column(name = "bookname" )
+	private String BookName;
+	@Column(name = "authorname" )
+	private String AuthorName;
 	private Integer Price;
 	private Integer Quantity;
 	@Column(columnDefinition = "LONGBLOB")
@@ -27,16 +27,16 @@ public class Books {
 		BookId = bookId;
 	}
 	public String getBookName() {
-		return bookName;
+		return BookName;
 	}
 	public void setBookName(String bookName) {
-		this.bookName = bookName;
+		BookName = bookName;
 	}
 	public String getAuthorName() {
-		return authorName;
+		return AuthorName;
 	}
 	public void setAuthorName(String authorName) {
-		this.authorName = authorName;
+		AuthorName = authorName;
 	}
 	public Integer getPrice() {
 		return Price;
@@ -61,3 +61,4 @@ public class Books {
 	
 	
 }
+
