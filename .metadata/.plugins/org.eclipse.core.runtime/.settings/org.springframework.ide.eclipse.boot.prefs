@@ -2,6 +2,7 @@ eclipse.preferences.version=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=4
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.devtools=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.mysql=4
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.security=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=7
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=Existing_data_API
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.4.0
