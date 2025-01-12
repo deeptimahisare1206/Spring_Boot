@@ -8,6 +8,7 @@ public class ExistingDataApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ExistingDataApiApplication.class, args);
+System.out.println("Testing");
 	}
 
 }

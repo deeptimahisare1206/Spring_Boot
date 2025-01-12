@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=5
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.devtools=2
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.graphql=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.lombok=2
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.mysql=4
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.security=2
