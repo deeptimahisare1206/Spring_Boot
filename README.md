@@ -1,4 +1,4 @@
-# Spring Boot Practice Module(Starter)
+# Spring Boot Practice (Starter)
 
  - This repository contains my initial practice work with Spring Boot, focusing on understanding the core structure, configuration, and building basic REST APIs.
 
